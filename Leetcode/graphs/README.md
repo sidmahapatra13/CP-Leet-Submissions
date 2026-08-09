@@ -1,2 +1,2 @@
 # Graphs
-Placeholder README to keep this folder tracked on GitHub for graph problems.
+Leetcode graph problems.
