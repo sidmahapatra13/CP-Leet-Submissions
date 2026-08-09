@@ -17,6 +17,14 @@ My solutions, notes, and progress across competitive programming platforms.
 ```text
 competitive-programming/
 │
+├── Codeforces/
+│   ├── 800/
+│   ├── 900/
+│   ├── 1000/
+│   ├── 1100/
+│   ├── 1200/
+│   └── Contests/
+│
 ├── LeetCode/
 │   ├── Arrays/
 │   ├── binary-Search/
@@ -26,13 +34,5 @@ competitive-programming/
 │   ├── strings/
 │   ├── trees/
 │   └── ...
-│
-├── Codeforces/
-│   ├── 800/
-│   ├── 900/
-│   ├── 1000/
-│   ├── 1100/
-│   ├── 1200/
-│   └── Contests/
-│
+│ 
 └── README.md
