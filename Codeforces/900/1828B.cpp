@@ -1,0 +1,46 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+using ll = long long;
+using pii = pair<int,int>;
+using pll = pair<ll,ll>;
+
+#define pb push_back
+#define ff first
+#define ss second
+#define all(x) (x).begin(), (x).end()
+#define sz(x) (int)(x).size()
+
+int gcd(int a, int b) {
+    while (b != 0) {
+        int temp = a % b;
+        a = b;
+        b = temp;
+    }
+    return a;
+}
+
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    int t;
+    cin >> t;
+
+    while(t--) {
+        int n;
+        cin >> n;
+        vector<int> a(n);
+
+        for(int i = 0; i < n; i++) {
+            cin >> a[i];
+        }
+
+        int k = abs(a[0] - 1);
+        for(int i = 0; i < n; i++) {
+            k = gcd(k, abs(a[i] - (i+1)));
+        }
+        cout << k << endl;
+    }
+    return 0;
+}
