@@ -9,6 +9,7 @@ My solutions, notes, and progress across competitive programming platforms.
 | Platform | Focus | Profile |
 |----------|-------|---------|
 | [Codeforces](https://codeforces.com/profile/JPEGMafia13) | Competitive programming & contests | JPEGMafia13 |
+| [CSES](https://cses.fi/user/377564) | Competitive Programming + DSA | sidmahapatra13 |
 
 ---
 
