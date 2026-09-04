@@ -31,7 +31,7 @@ int main() {
             cout << endl;
         }
         else {
-            if(k == 1 || k == 2 && n % 2 == 1) {
+            if(k == 1 || (k == 2 && n % 2 == 1) || n == 1) {
                 cout << "NO" << endl;
             }
             else {
